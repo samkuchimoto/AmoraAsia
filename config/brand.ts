@@ -46,4 +46,6 @@ export const BRAND_CONFIG = {
   // the same thing — a plan that's "membership" in one place and "Plus"
   // in another reads like two different products.
   premiumName: "AmoraAsia Gold",
+  // Shown in the footer of the home and legal pages.
+  operatedBy: "Operated by Kuchimoto LLC, a Wyoming limited liability company.",
 } as const;

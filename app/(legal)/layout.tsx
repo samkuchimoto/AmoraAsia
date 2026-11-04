@@ -28,7 +28,6 @@ export default function LegalLayout({ children }: { children: React.ReactNode })
           {children}
         </div>
       </section>
-      <footer className="canvas pb-10 text-xs text-[var(--muted)]">{BRAND_CONFIG.operatedBy}</footer>
     </main>
   );
 }

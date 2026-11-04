@@ -9,7 +9,6 @@
 // Three lines and a footer now.
 
 import Link from "next/link";
-import { BRAND_CONFIG } from "@/config/brand";
 
 /**
  * The title card. Sits above the member grid and does the job a hero
@@ -82,7 +81,6 @@ export function SiteFooter() {
           ))}
         </nav>
         <p className="text-xs text-[var(--cream)]/45">© 2026 AmoraAsia.</p>
-        <p className="text-xs text-[var(--cream)]/45">{BRAND_CONFIG.operatedBy}</p>
       </div>
     </footer>
   );
